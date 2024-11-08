@@ -1,0 +1,30 @@
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.outlet-container {
+  position: absolute;
+  top: 85px;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+  overflow-y: auto;
+}
+
+.layout-container::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.layout-container::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 10px;
+}
+
+.layout-container::-webkit-scrollbar-track {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
